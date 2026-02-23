@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-deployment
+spec:
+  replicas: 1 #cantidad de veces que la app se ejecuta en paralelo
+  selector:
+    matchLabels:
+      app: flask-app
+  template:
+    metadata:
+      labels:
+        app: flask-app
+    spec:
+      containers:
+        - name: flask-container
+          image: leonardodiaz96/jenkins-shared-mlops-project:latest #docker image path
+          ports:
+            - containerPort: 5000

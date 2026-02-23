@@ -1,0 +1,8 @@
+# Virtual envs
+venv/
+.venv/
+MLOPS_PROJECT.egg-info/
+logs/
+# Python cache
+__pycache__/
+*.pyc
