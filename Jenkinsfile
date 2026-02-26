@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 gitCheckout('https://github.com/data-guru0/MLOPS-Project-Code.git', '*/main', 'github-token')   
+                 gitCheckout('https://github.com/Leonardodiaz96/MLops-Project-Jenkins.git', '*/main', 'github-token')   
             }
         }
 
