@@ -26,7 +26,7 @@ pipeline {
 
         stage('Deploy to Kubernetes') {
             steps {
-                 k8sDeploy('kubeconfig', )
+                 k8sDeploy('kubeconfig')
             }
         }
     }
