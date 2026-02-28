@@ -1,4 +1,4 @@
-<img width="930" height="523" alt="Screenshot (464)" src="https://github.com/user-attachments/assets/15366c17-88f3-4990-abc7-f0eafde901b5" />This project focuses on building a centralized and reusable CI/CD architecture to standardize and automate pipeline logic across multiple applications.
+This project focuses on building a centralized and reusable CI/CD architecture to standardize and automate pipeline logic across multiple applications.
 
 A cloud-based environment was provisioned on Google Cloud Platform (GCP), where a fully functional Minikube cluster was configured to orchestrate and host containerized services.
 
